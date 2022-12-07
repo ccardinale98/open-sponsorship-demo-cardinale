@@ -24,7 +24,7 @@ export function List({ specificAthlete }) {
         <div className='row main'>
             {athletes.length > 0
                 ? athletes.map(athlete => 
-                    <div className='col-sm-6 cardDiv' onClick={() => specificAthlete(athlete)}>
+                    <div className='cardDiv' onClick={() => specificAthlete(athlete)}>
                         <div className="card">
                             <div className='card-header'>
                                 { athlete.name }
